@@ -1,0 +1,63 @@
+.layout {
+    width: 100%;
+    min-height: 95vh;
+    display: grid;
+    grid: "header" auto "main" 1fr "footer" auto / 1fr;
+    background-color: aliceblue;
+}
+
+.header {
+    grid-area: header;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.main {
+    grid-area: main;
+    padding: 10px;
+}
+
+.main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #AECFDF;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #9F9FAD;
+    color: black;
+}
+
+.lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista li {
+    margin-bottom: 10px;
+}
+
+.lista span {
+    color: #555;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
