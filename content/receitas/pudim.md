@@ -5,6 +5,8 @@ atualizado: 2026-11-08
 description: Pudim de leite condensado.
 ---
 
+![pudim](./pudim.png)
+
 Texto da receita.
 
 ## Ingredientes
